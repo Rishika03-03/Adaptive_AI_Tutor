@@ -1,0 +1,58 @@
+{
+    "gg": {
+        "name": "gg",
+        "education_level": "College",
+        "grade": null,
+        "grades": {
+            "c": 75
+        },
+        "subjects": [
+            "c"
+        ],
+        "progress": {},
+        "taught_concepts": {
+            "c": [
+                "## Function Pointers in C"
+            ]
+        }
+    },
+    "RIshika": {
+        "name": "RIshika",
+        "education_level": "College",
+        "grade": null,
+        "grades": {
+            "Machine Learning": 95,
+            "COOS": 75,
+            "Cloud Computing": 97,
+            "Software Engineering": 94,
+            "Computer Networks": 93
+        },
+        "subjects": [
+            "Machine Learning",
+            "COOS",
+            "Cloud Computing",
+            "Software Engineering",
+            "Computer Networks"
+        ],
+        "progress": {
+            "Machine Learning": [
+                {
+                    "score": 33.33,
+                    "correct": 1
+                }
+            ]
+        },
+        "taught_concepts": {
+            "Machine Learning": [
+                "Adversarial Training and Robust Optimization",
+                "Bayesian Optimization with Gaussian Processes"
+            ],
+            "COOS": [],
+            "Cloud Computing": [],
+            "Software Engineering": [],
+            "Computer Networks": []
+        },
+        "levels": {}
+    },
+    "Rishika": {}
+}
