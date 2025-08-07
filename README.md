@@ -106,28 +106,6 @@ The application will open in your default web browser at `http://localhost:8501`
 - Modify learning preferences
 - Profile management
 
-## 🏗️ Project Structure
-
-```
-adaptive-ai-tutor/
-├── app.py                 # Main Streamlit application
-├── Home.py               # Home page with learning interface
-├── Performance.py        # Performance tracking page
-├── Settings.py          # User settings and profile management
-├── tutor/
-│   ├── ai_tutor.py      # AI-powered concept teaching
-│   ├── quiz_engine.py   # Quiz generation and evaluation
-│   ├── feedback_logic.py # Performance tracking logic
-│   └── knowledge_base.py # Knowledge management
-├── utils/
-│   └── session_manager.py # User session and data management
-├── data/
-│   ├── user_profile.json # User profiles and progress
-│   └── quiz_results.json # Quiz history and results
-└── templates/
-    └── s.py             # Template files
-```
-
 ## 🔧 Configuration
 
 ### Customizing Subjects
@@ -153,35 +131,9 @@ def get_difficulty_level(marks):
     else:
         return "basic"
 ```
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for providing the AI capabilities
-- Streamlit for the web framework
-- The open-source community for inspiration and tools
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/adaptive-ai-tutor/issues) page
-2. Create a new issue with detailed information
-3. Include your Python version, operating system, and error messages
 
 ## 🔮 Future Enhancements
 
